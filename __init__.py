@@ -10,11 +10,9 @@ def add_numbers(*args):
     add_numbers(1,2,3,4)
     
     ---> result will be : 10'''''
-    
-    a=0
-    for i in args:
-        a=a+i
-    return a
+    return sum(args)
+
+
         
 # defining second function for getting the product of any number of input numbers 
 
